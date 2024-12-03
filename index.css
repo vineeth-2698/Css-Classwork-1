@@ -1,0 +1,63 @@
+body {
+    background-image: url("Roasted_coffee_beans.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-card {
+    background-color: #d2b48c;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.separator {
+    height: 2px;
+    background-color: maroon;
+    margin: 10px 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.footer {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: black;;
+}
+.footer a:hover{
+    color: maroon;
+}
